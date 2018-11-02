@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>LOGIN</title>
+  </head>
+  <body>
+    <div class="navBar">
+      <ul>
+        <li><a href='/login'>Login</a></li>
+        <li><a href='/products'>Products</a></li>
+        <li><a href='/checkout'>Checkout</a></li>
+      </ul>
+    </div>
+    <h2>Login</h2>
+    <form action="/login" method = "POST">
+        <input type="text" name = "username" />
+        <input type="password" name = "password" />
+        <input type="submit" value="Login" />
+    </form>
+    <p>Need to register? <a href='/register'>click here.</a></p>
+  </body>
+</html>
